@@ -1,8 +1,8 @@
 from os import environ 
 
 class Config:
-    API_ID = environ.get("API_ID", "577678")
-    API_HASH = environ.get("API_HASH", "d2c6e01uuiuiouioiuiou0fc6d7a1be")
+    API_ID = environ.get("API_ID", "28778460")
+    API_HASH = environ.get("API_HASH", "8381c308e0a6602a8c5e83b2c09d8af6")
     BOT_TOKEN = environ.get("BOT_TOKEN", "8432860625:AAFncKCECyJ-zv4_tQcWuc5c-aUgUXQ2TQU") 
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
     DATABASE_URI = environ.get("DATABASE", "mongodb+srv://philostwo02_db_user:4aQt6W8dSW6ZSgd0@cluster0.noaxhdm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
